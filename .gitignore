@@ -1,0 +1,38 @@
+# --- Secrets: never commit these ---
+*.key
+*.pem
+*.p12
+*privatekey*
+*private_key*
+wg*.conf
+!vpn/examples/*.example.conf
+.env
+.env.*
+secrets/
+*.secret
+
+# Raw, unsanitised exports (sanitise first, then commit the *.sanitised file)
+*-raw.*
+raw/
+backups/
+*.tar.gz
+*.backup
+
+# Packet captures and logs can contain personal data
+*.pcap
+*.pcapng
+*.log
+!monitoring/samples/*.sample.log
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# VM images
+*.qcow2
+*.img
+*.iso
+*.utm/
