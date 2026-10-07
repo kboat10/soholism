@@ -58,7 +58,7 @@ Filled in during weeks 5–6. Every row links to its write-up in [`attacks/`](at
 | | Location | Focus |
 | --- | --- | --- |
 | Kwaku | Accra, Ghana | Site A, monitoring, playbook |
-| _Friend_ | London, UK | Site B, DNS filtering, publishing |
+| Emmanuel | London, UK | Site B, DNS filtering, publishing |
 
 ## Ethics and scope
 
